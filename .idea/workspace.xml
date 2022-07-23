@@ -1,36 +1,159 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="main.dart" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/lib/main.dart">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
   </component>
-  <component name="ToolWindowManager">
-    <editor active="true" />
-    <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-    </layout>
+  <component name="ChangeListManager">
+    <list default="true" id="a475a257-d6ae-4507-a76b-d4f9cadad075" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/assets/images/albums/artist1-album1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/albums/artist1-album2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/albums/artist1-album3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/albums/artist2-album2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/albums/artist3-album1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/albums/artist4-album1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/albums/artist4-album2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/albums/artist4-album3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/albums/artist5-album1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/albums/artist5-album2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/albums/artist6-album1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/albums/artist6-album2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/albums/artist6-album3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/artists/joe.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/artists/woman.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/news/concert.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/news/concert_heart.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/news/recording_studio.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/playlists/austin.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/playlists/calm.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/playlists/coffee.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/playlists/favorite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/playlists/jazz.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/playlists/piano.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/playlists/reading.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/playlists/studying.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/playlists/workout.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/record.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/src/features/artists/artists.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/src/features/artists/view/artist_bio.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/src/features/artists/view/artist_card.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/src/features/artists/view/artist_events.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/src/features/artists/view/artist_news.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/src/features/artists/view/artist_ranked_songs.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/src/features/artists/view/artist_screen.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/src/features/artists/view/artist_updates.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/src/features/artists/view/artists_screen.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/src/features/artists/view/view.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/src/features/home/home.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/src/features/home/view/home_artists.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/src/features/home/view/home_highlight.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/src/features/home/view/home_recent.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/src/features/home/view/home_screen.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/src/features/home/view/view.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/src/features/playlists/playlists.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/src/features/playlists/view/playlist_home_screen.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/src/features/playlists/view/playlist_screen.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/src/features/playlists/view/playlist_songs.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/src/features/playlists/view/view.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/src/shared/app.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/src/shared/classes/artist.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/src/shared/classes/classes.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/src/shared/classes/event.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/src/shared/classes/image.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/src/shared/classes/news.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/src/shared/classes/playlist.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/src/shared/classes/ranked_song.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/src/shared/classes/song.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/src/shared/extensions.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/src/shared/playback/bloc/bloc.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/src/shared/playback/bloc/playback_bloc.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/src/shared/playback/bloc/playback_bloc.freezed.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/src/shared/playback/bloc/playback_event.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/src/shared/playback/bloc/playback_state.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/src/shared/providers/artists.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/src/shared/providers/playlists.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/src/shared/providers/providers.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/src/shared/providers/songs.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/src/shared/providers/theme.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/src/shared/router.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/src/shared/views/adaptive_image_card.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/src/shared/views/adaptive_navigation.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/src/shared/views/adaptive_table.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/src/shared/views/article_content.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/src/shared/views/bottom_bar.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/src/shared/views/brightness_toggle.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/src/shared/views/center_row.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/src/shared/views/clickable.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/src/shared/views/events.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/src/shared/views/hover_toggle.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/src/shared/views/hoverable_song_play_button.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/src/shared/views/image_card.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/src/shared/views/image_clipper.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/src/shared/views/image_tile.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/src/shared/views/outlined_card.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/src/shared/views/play_pause_listener.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/src/shared/views/root_layout.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/src/shared/views/sidebar.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/src/shared/views/views.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/music_player_app_android.iml" beforeDir="false" afterPath="$PROJECT_DIR$/android/music_player_app_android.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <option name="show-excluded-files" value="false" />
-      </pane>
-    </panes>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2CMJrzRqTez8qlkXbDjuxRuZ812" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
+    <property name="cidr.known.project.marker" value="true" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="dart.analysis.tool.window.force.activate" value="true" />
     <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\harmo\Documents\my_projects\music_player_app" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="main.dart" type="FlutterRunConfigurationType" factoryName="Flutter">
+      <option name="filePath" value="$PROJECT_DIR$/lib/main.dart" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a475a257-d6ae-4507-a76b-d4f9cadad075" name="Changes" comment="" />
+      <created>1658606800976</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1658606800976</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
