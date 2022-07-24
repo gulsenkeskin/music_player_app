@@ -15,7 +15,7 @@ class MyApp extends StatefulWidget {
 
 class _MyAppState extends State<MyApp> {
   final settings = ValueNotifier(ThemeSettings(
-    sourceColor: Colors.pink, // Replace this color
+    sourceColor: Color(0xffb58392), // Replace this color
     themeMode: ThemeMode.system,
   ));
   @override
@@ -35,14 +35,12 @@ class _MyAppState extends State<MyApp> {
               child: ValueListenableBuilder<ThemeSettings>(
                 valueListenable: settings,
                 builder: (context, value, _) {
-                  // Create theme instance
+                  final theme=ThemeProvider.of(context);
                   return MaterialApp.router(
                     debugShowCheckedModeBanner: false,
                     title: 'Flutter Demo',
-                    // Add theme
-                    // Add dark theme
-                    // Add theme mode
-                    routeInformationParser: appRouter.routeInformationParser,
+                    theme: theme.light(settings.value.sourceColor),
+                    routeInformationParser:appRouter.routeInformationParser,
                     routeInformationProvider:
                         appRouter.routeInformationProvider,
                     routerDelegate: appRouter.routerDelegate,
