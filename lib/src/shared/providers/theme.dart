@@ -149,8 +149,9 @@ class ThemeProvider extends InheritedWidget {
   ThemeData light([Color? targetColor]) {
     final colorScheme = colors(Brightness.light, targetColor);
     return ThemeData.light().copyWith(
-      // Add page transitions
-      colorScheme: colorScheme,
+      pageTransitionsTheme: pageTransitionsTheme,
+      colorScheme: ColorScheme.fromSeed(seedColor: source(targetColor),
+      brightness: Brightness.light,),
       appBarTheme: appBarTheme(colorScheme),
       cardTheme: cardTheme(),
       listTileTheme: listTileTheme(colorScheme),
@@ -167,8 +168,8 @@ class ThemeProvider extends InheritedWidget {
   ThemeData dark([Color? targetColor]) {
     final colorScheme = colors(Brightness.dark, targetColor);
     return ThemeData.dark().copyWith(
-      // Add page transitions
-      colorScheme: colorScheme,
+      pageTransitionsTheme: pageTransitionsTheme,
+      colorScheme: ColorScheme.fromSeed(seedColor: source(targetColor),brightness: Brightness.dark),
       appBarTheme: appBarTheme(colorScheme),
       cardTheme: cardTheme(),
       listTileTheme: listTileTheme(colorScheme),
